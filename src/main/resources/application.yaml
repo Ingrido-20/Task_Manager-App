@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Test-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Demodb
+    username: postgres
+    password: Audacious@2026
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+    server:
+      port: 8080
