@@ -1,10 +1,13 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: Test-backend
   datasource:
     url: jdbc:postgresql://localhost:5432/Demodb
     username: postgres
-    password: Audacious@2026
+    password: Considerme@2
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -12,5 +15,3 @@ spring:
       ddl-auto: update
     show-sql: true
 
-    server:
-      port: 8080
